@@ -33,7 +33,7 @@ CAMFT consists of four stages:
 4. **Fine-tune and merge:** train task experts independently and combine their updates using standard model-merging algorithms.
 
 <p align="center">
-  <img src="assets/camft_overview.png" width="100%" alt="Overview of CAMFT">
+  <img src="assets/camft_overview.jpg" width="100%" alt="Overview of CAMFT">
 </p>
 
 ## Highlights
