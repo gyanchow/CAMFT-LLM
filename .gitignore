@@ -1,0 +1,37 @@
+# Local and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Experiment artifacts
+data/
+checkpoints/
+outputs/
+wandb/
+tmp/
+*.log
+
+# Paper sources and build artifacts are intentionally not released yet
+paper/
+*.pdf
+*.tex
+*.bib
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
